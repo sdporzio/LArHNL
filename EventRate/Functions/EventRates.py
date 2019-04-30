@@ -6,8 +6,8 @@ For more informations, see directory _Formulas
 import os, sys, math
 import numpy as np
 import pandas as pd
-import DecayLength as DL
-import LoadFlux as LF
+import Functions.DecayLength as DL
+import Functions.LoadFlux as LF
 # Perform traditional check of environment variable
 def GetEnvVariable(varName):
     try:
