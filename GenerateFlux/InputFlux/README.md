@@ -1,0 +1,1 @@
+Pickle file containing individual components of BNB flux, correctly binned, used to generate HSN flux by reweighting each component according to the helicity un-suppression factor.

@@ -1,0 +1,94 @@
+{
+  "physics":{
+    "constants":{
+      "c": 299792458,
+      "Gf": 1.16637e-11,
+      "hbar": 6.582e-22,
+      "pi": 3.14159265359
+    },
+    "mass":{
+      "e": 0.511,
+      "mu": 105.758,
+      "tau": 17776.82,
+      "pi0": 134.977,
+      "pi+": 139.570,
+      "k0": 497.648,
+      "k+": 493.667
+    },
+    "mean_life":{
+      "pi0": 8.52e-17,
+      "pi+": 2.6033e-8,
+      "k+": 1.238e-8
+    },
+    "ckm":{
+      "ud": 0.97427,
+      "us": 0.2248
+    },
+    "decay_const":{
+      "pi0": 130.7,
+      "pi+": 130.2,
+      "k+": 159.8
+    }
+  },
+  "experiment":{
+    "sbnd":{
+      "fiducial_volume": 55.0,
+      "distance": 110
+    },
+    "microboone":{
+      "cryostat":{
+        "width": 3.83,
+        "height": 3.83,
+        "length": 12.21,
+        "volume": 179.11
+      },
+      "TPC":{
+        "width": 2.60,
+        "height": 2.56,
+        "length": 10.45,
+        "volume": 69.56
+      },
+      "TPC_active":{
+        "width": 2.56,
+        "height": 2.33,
+        "length": 10.37,
+        "volume": 61.85
+      },
+      "fiducial_volume": 46.2,
+      "distance": 463,
+      "trigger":{
+        "nsPerTick": 15.6,
+        "bnb_trigger_start_ticks": 190,
+        "bnb_trigger_duration_ticks": 120,
+        "hsn_trigger_duration_ticks": 160,
+        "bnb_nu_arrival_time": 3125,
+        "beam_gate": 1600
+      }
+    },
+    "icarus":{
+      "fiducial_volume": 259.6,
+      "distance": 600
+    },
+    "miniboone":{
+      "distance": 540
+    },
+    "decay_pipe":{
+      "length": 50
+    }
+  },
+  "units":{
+    "c": "meter/second",
+    "Gf": "1/MeV^2",
+    "hbar": "MeV * second",
+    "mean_life": "second",
+    "ckm": "(adimensional)",
+    "decay_const": "MeV",
+    "mass": "MeV",
+    "experiment":{
+      "length": "meter",
+      "volume": "meter^3",
+      "time": "ns",
+      "time_ticks": "ticks"
+    }
+  }
+}
